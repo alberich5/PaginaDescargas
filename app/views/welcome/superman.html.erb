@@ -5,6 +5,13 @@
 
 <div id="descargas">
 	<a href="" title="">Descarargar</a>
-	<p>Mega</p>
-	<a href="" title=""><%= @link %></a>
+	<p>Servidores</p>
+	<p>Mega,Upload,Rapishared,Mediafire</p>
+	<% if user_signed_in? %>
+	<a href="" title=""><%= @linkMega %></a>
+	<a href="" title=""><%= @linkRapi %></a>
+	<a href="" title=""><%= @linkRapi %></a>
+	<% else %>
+		<p>Registrate o Inicia session para ver</p>
+	<% end %>
 </div>

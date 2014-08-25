@@ -2,16 +2,22 @@ class WelcomeController < ApplicationController
   def index
   	@nombrePeli= "Los vengadores de Marvel"
   	@imagen = "omar.JPG"
-  	@link = "https://www.mega.coz/jhdjhdj"
+  	@linkMega = "https://www.mega.coz/super-hsdfh/sdjs"
+  	@linkRapi = "https://www.Rapidshared.coz/super-hsdfh/sdjs"
+  	@linkMedia = "https://www.mediafire.coz/super-hsdfh/sdjs"
   end
   def batman
   	@nombrePeli= "Batman el Caballero de la Noche"
   	@imagen = "batman.jpg"
-  	@link = "https://www.mega.coz/batamn-hsdfh/sdjs"
+  	@linkMega = "https://www.mega.coz/super-hsdfh/sdjs"
+  	@linkRapi = "https://www.Rapidshared.coz/super-hsdfh/sdjs"
+  	@linkMedia = "https://www.mediafire.coz/super-hsdfh/sdjs"
   end
   def superman
   	@nombrePeli= "Superman el Hombre de Acero"
   	@imagen = "super.jpg"
-  	@link = "https://www.mega.coz/super-hsdfh/sdjs"
+  	@linkMega = "https://www.mega.coz/super-hsdfh/sdjs"
+  	@linkRapi = "https://www.Rapidshared.coz/super-hsdfh/sdjs"
+  	@linkMedia = "https://www.mediafire.coz/super-hsdfh/sdjs"
   end
 end
